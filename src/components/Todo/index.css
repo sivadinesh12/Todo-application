@@ -1,0 +1,52 @@
+.bg-container{
+    padding: 15px;
+    height: 100vh;
+}
+.heading{
+    font-family:Inter;
+    font-size:  50px;
+    text-align: center;
+}
+.create{
+    font-weight: 700;
+    font-family: Inter;
+
+}
+.task{
+    font-weight: 500;
+    font-family: Inter;
+}
+.task-input{
+    height: 40px;
+    width: 50%;
+    border: 2px #b7bdba solid;
+    border-radius: 8px;
+    padding: 10px;
+}
+.add-btn{
+    background-color: #3260c9;
+    color: #ffffff;
+    font-family: Inter;
+    align-self: flex-start;
+    margin-top: 15px;
+    height: 40px;
+    width: 83px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-heading{
+    font-family: Inter;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.list-container{
+    list-style-type: none;
+    padding: 15px;
+    overflow: auto;
+}
